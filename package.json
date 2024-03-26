@@ -1,0 +1,26 @@
+{
+  "name": "cryptowalletmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node-dev --ignore-watch node_modules src/index.ts"
+  },
+  "author": "Álvaro Eduardo Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bip32": "^2.0.0",
+    "@types/bip39": "^3.0.0",
+    "@types/bitcoinjs-lib": "^5.0.0",
+    "@types/node": "^20.11.30",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5"
+  }
+}
